@@ -1,0 +1,12 @@
+node_modules/
+out/
+dist/
+.cache/
+coverage/
+playwright-report/
+test-results/
+Clipper-*.png
+.DS_Store
+*.db
+*.db-shm
+*.db-wal
