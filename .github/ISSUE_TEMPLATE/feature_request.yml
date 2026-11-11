@@ -1,0 +1,24 @@
+name: Feature Request
+description: Suggest an improvement or new capability for Clipper
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Workflow Need
+      description: Describe the workflow friction or use case this solves.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you expect this to work inside Clipper?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any existing tools or workarounds you currently use.
